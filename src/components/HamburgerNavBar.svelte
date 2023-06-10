@@ -7,7 +7,7 @@
 
 <!-- Hamburger Links -->
 <!-- Only visible when button is clicked/open but must also hide the menu when screen goes over xl -->
-<nav class="w-full {hamIsOpen ? 'absolute' : 'hidden'} xl:hidden z-10">
+<nav class="w-full {hamIsOpen ? 'absolute' : 'hidden'} lg:hidden z-10">
     <ul class="w-full">
         {#each buttons as button}
             <HamburgerNavButton on:click {...button}/>      

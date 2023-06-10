@@ -5,9 +5,9 @@
     export let link = 'Juan Yu'
 </script>
 
-<li class="mb-4 mr-8 hover:text-red-400">
+<li class="mb-5 hover:text-red-400">
     <a class="flex items-center" {href}>
-        <img class="h-4 mr-4 hover:text-red-400" {src} {alt}/>
+        <img class="h-4 mr-5 hover:text-red-400" {src} {alt}/>
         {link}
     </a>
 </li>

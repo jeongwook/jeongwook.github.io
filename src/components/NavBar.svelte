@@ -6,7 +6,7 @@
 
 <nav>
     <!-- hidden until large screen size -->
-    <ul class="hidden xl:flex items-center justify-between">
+    <ul class="hidden lg:flex items-center justify-between">
         {#each buttons as button} 
             <NavBarButton {...button}/>
         {/each}
